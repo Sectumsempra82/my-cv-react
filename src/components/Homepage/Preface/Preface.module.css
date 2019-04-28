@@ -1,0 +1,24 @@
+.Preface {
+    background-color: rgb(36, 27, 36);
+    text-align: center;
+    color: white;
+    font-family: inherit;
+    margin-top: -40px;
+    font-size: x-large;
+    width: 100%;
+}
+
+.Preface h1 {
+    padding-top: 100px;
+}
+
+.Preface p {
+    padding-bottom: 100px;
+}
+
+.Preface a:link,
+.Preface a:visited,
+.Preface a:hover,
+.Preface a:active {
+    color: yellow;
+}
