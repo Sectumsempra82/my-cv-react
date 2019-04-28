@@ -3,21 +3,7 @@
     margin-top: -80px;
     border-radius: 15px;
     padding-top: 50px;
-  /*  display: flex;
-    text-align: center;*/
 }
-/*
-.Skills>div>div {
-    display: inline;
-    margin-left: 5.5%;
-}
-
-
-    .Skills>div {
-        display: grid;
-        text-align: center;
-    }
-} */
 
 @media(max-width: 575px) {
     .Skills>div>div>div {
