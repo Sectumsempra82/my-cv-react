@@ -10,9 +10,7 @@ class Jumbo extends Component {
     render() {
         return (
             <Jumbotron fluid className={classes.Jumbo}>
-                <Container >
-                    <img src={bigLogo} alt="RADU-CRISTIAN BEJAN"/>
-                </Container>
+                <img src={bigLogo} alt="RADU-CRISTIAN BEJAN"/>
             </Jumbotron>
         )
     }
