@@ -1,12 +1,28 @@
+.Skills {
+    background-color: rgb(28, 16, 29);
+    padding: 100px 0 100px;
+    margin-top: -20px;
+}
+
 .Skills>div {
     background-color: white;
-    margin-top: -80px;
+    margin-top: 20px;
     border-radius: 15px;
-    padding-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+@media(min-width: 575px) {
+    .Skills>div>div>div:not(:first-child) {
+        margin-left: 20px;
+    }
 }
 
 @media(max-width: 575px) {
     .Skills>div>div>div {
         margin: 0 auto;
+    }
+    .Skills>div {
+        background-color: rgb(28, 16, 29);
     }
 }
