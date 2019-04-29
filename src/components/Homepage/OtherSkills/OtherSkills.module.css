@@ -1,0 +1,24 @@
+.OtherSkills{
+    padding: 100px 0 100px;
+    text-align: center
+}
+
+.OtherSkills > h2{
+    margin: -50px auto 50px;
+}
+
+.OtherSkills>div{
+    display: inline-block;
+    width: 18rem;
+    max-width: 80%;
+}
+
+.First {
+    margin-left: -15%
+}
+.Second {
+    margin-left: 15%
+}
+.Third {
+    margin-left: 15%
+}

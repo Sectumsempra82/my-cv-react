@@ -4,6 +4,11 @@
     margin-top: -20px;
 }
 
+.Skills>div>h2 {
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+
 .Skills>div {
     background-color: white;
     margin-top: -170px;

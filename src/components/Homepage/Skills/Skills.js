@@ -5,36 +5,37 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import classes from './Skills.module.css';
 
 class Skills extends Component {
-    renderStars = (n) => {
-        let stars = [...Array(n)].map((v, i) => <FontAwesomeIcon icon={["fas", "star"]}  key={'s' + i}/>);
-        if (n < 5) {
-            let m = 5 - n;
-            let noStars = [...Array(m)].map((v, i) => <FontAwesomeIcon icon={["far", "star"]} key={'ns' + i}/>);
-            const allStars = stars.concat(noStars);
-            return allStars;
-        } else {
-            return stars;
-        }
-    }
+    // renderStars = (n) => {
+    //     let stars = [...Array(n)].map((v, i) => <FontAwesomeIcon icon={["fas", "star"]}  key={'s' + i}/>);
+    //     if (n < 5) {
+    //         let m = 5 - n;
+    //         let noStars = [...Array(m)].map((v, i) => <FontAwesomeIcon icon={["far", "star"]} key={'ns' + i}/>);
+    //         const allStars = stars.concat(noStars);
+    //         return allStars;
+    //     } else {
+    //         return stars;
+    //     }
+    // }
 
     render() {
         return (
             <section className={classes.Skills}>
                 <Container >
+                    <h2>Skills</h2>
                     <CardGroup>
                         <Card bg="dark" text="white" style={{ width: '18rem' }}>
                             <Card.Header>Back-end</Card.Header>
                             <Card.Body>
                                 <Card.Title>Web and standalone</Card.Title>
                                 <ListGroup style={{ color: 'black' }}>
-                                    <ListGroup.Item>npm / Node.js {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Python {this.renderStars(3)}</ListGroup.Item>
-                                    <ListGroup.Item>PHP {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>Joomla/Wordpress {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>OpenCart {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>Smallatlk (Cincom) {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>MySql/MariaDb {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>OracleDB 11g, 12g, 18g {this.renderStars(4)}</ListGroup.Item>
+                                    <ListGroup.Item>npm / Node.js</ListGroup.Item>
+                                    <ListGroup.Item>Python</ListGroup.Item>
+                                    <ListGroup.Item>PHP</ListGroup.Item>
+                                    <ListGroup.Item>Joomla/Wordpress</ListGroup.Item>
+                                    <ListGroup.Item>OpenCart</ListGroup.Item>
+                                    <ListGroup.Item>Smallatlk (Cincom)</ListGroup.Item>
+                                    <ListGroup.Item>MySql/MariaDb</ListGroup.Item>
+                                    <ListGroup.Item>OracleDB 11g, 12g, 18g</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
@@ -44,17 +45,17 @@ class Skills extends Component {
                             <Card.Body>
                                 <Card.Title>UI, UX and Animations</Card.Title>
                                 <ListGroup style={{ color: 'black' }}>
-                                    <ListGroup.Item>Javascript {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>React.js {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>Angular 2.xx {this.renderStars(2)}</ListGroup.Item>
-                                    <ListGroup.Item>HTML5/CSS3 {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Bootstrap {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Sass {this.renderStars(3)}</ListGroup.Item>
-                                    <ListGroup.Item>XML {this.renderStars(3)}</ListGroup.Item>
-                                    <ListGroup.Item>JQuery {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>CSS animations {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>Svg {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Responsive design {this.renderStars(5)}</ListGroup.Item>
+                                    <ListGroup.Item>Javascript</ListGroup.Item>
+                                    <ListGroup.Item>React.js</ListGroup.Item>
+                                    <ListGroup.Item>Angular 2.xx</ListGroup.Item>
+                                    <ListGroup.Item>HTML5/CSS3</ListGroup.Item>
+                                    <ListGroup.Item>Bootstrap</ListGroup.Item>
+                                    <ListGroup.Item>Sass</ListGroup.Item>
+                                    <ListGroup.Item>XML</ListGroup.Item>
+                                    <ListGroup.Item>JQuery</ListGroup.Item>
+                                    <ListGroup.Item>CSS animations</ListGroup.Item>
+                                    <ListGroup.Item>Svg</ListGroup.Item>
+                                    <ListGroup.Item>Responsive design</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
@@ -64,17 +65,17 @@ class Skills extends Component {
                             <Card.Body>
                                 <Card.Title>Primary Card Title</Card.Title>
                                 <ListGroup style={{ color: 'black' }}>
-                                    <ListGroup.Item>Windows 10 {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Windows Server 12 / 16 {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Active Directory / SCCM {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Networking {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Firewall (Palo Alto) {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>VMWare / Hyper-V {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>CMD/Powershell {this.renderStars(3)}</ListGroup.Item>
-                                    <ListGroup.Item>Linux Debian / Arch {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Bash {this.renderStars(5)}</ListGroup.Item>
-                                    <ListGroup.Item>Apache2 / IIS Hosting {this.renderStars(4)}</ListGroup.Item>
-                                    <ListGroup.Item>Proxy / VPN  {this.renderStars(5)}</ListGroup.Item>
+                                    <ListGroup.Item>Windows 10</ListGroup.Item>
+                                    <ListGroup.Item>Windows Server 12 / 16</ListGroup.Item>
+                                    <ListGroup.Item>Active Directory / SCCM</ListGroup.Item>
+                                    <ListGroup.Item>Networking</ListGroup.Item>
+                                    <ListGroup.Item>Firewall (Palo Alto)</ListGroup.Item>
+                                    <ListGroup.Item>VMWare / Hyper-V</ListGroup.Item>
+                                    <ListGroup.Item>CMD/Powershell</ListGroup.Item>
+                                    <ListGroup.Item>Linux Debian / Arch</ListGroup.Item>
+                                    <ListGroup.Item>Bash</ListGroup.Item>
+                                    <ListGroup.Item>Apache2 / IIS Hosting</ListGroup.Item>
+                                    <ListGroup.Item>Proxy / VPN </ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
