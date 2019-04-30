@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f171cd18f67241fc8b4734b45fa9e96",
+    "revision": "d61cd876e31851a26a2a7a01dde43cd4",
     "url": "/my-cv-react/index.html"
   },
   {
-    "revision": "572596f8cd6634951051",
+    "revision": "7ea17326a1506cf77bcc",
     "url": "/my-cv-react/static/css/2.2600024b.chunk.css"
   },
   {
-    "revision": "37c7aac58bbccd1a55ed",
-    "url": "/my-cv-react/static/css/main.188a4a43.chunk.css"
+    "revision": "fdf99a717f1ca172a66a",
+    "url": "/my-cv-react/static/css/main.6d068141.chunk.css"
   },
   {
-    "revision": "572596f8cd6634951051",
-    "url": "/my-cv-react/static/js/2.9c52d6fa.chunk.js"
+    "revision": "7ea17326a1506cf77bcc",
+    "url": "/my-cv-react/static/js/2.73035582.chunk.js"
   },
   {
-    "revision": "37c7aac58bbccd1a55ed",
-    "url": "/my-cv-react/static/js/main.d34a5fc1.chunk.js"
+    "revision": "fdf99a717f1ca172a66a",
+    "url": "/my-cv-react/static/js/main.ff31abd9.chunk.js"
   },
   {
     "revision": "26caa410a061c3c53846",
@@ -110,6 +110,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/my-cv-react/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "d090e11acfc62af4639790358bcdaf18",
+    "url": "/my-cv-react/static/media/confort_logo.d090e11a.png"
+  },
+  {
+    "revision": "902c684acdec4c6a2218ef55f3457c40",
+    "url": "/my-cv-react/static/media/cover.902c684a.jpg"
   },
   {
     "revision": "bc513dedb172919ec8f1666a231973a8",
