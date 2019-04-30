@@ -77,16 +77,14 @@ const ConfortAirSample = (props) => {
                     <ul>
                         <li>
                             <p><a href='http://www.confortservizi.it'>Confortservizi.it</a></p>
-                            <p><a href='http://www.confortairlions.it'>Confortairlions.it</a></p>
-                            <p><a href='http://www.assistenzaemmeti.it'>assistenzaemmeti.in</a></p>
-                            <p><a href='http://www.emmetiassistenza.it'>emmetiassistenza.in</a></p>
-                            <p><a href='http://www.haierassistenza.it'>haierassistenza.in</a></p>
-                            <p><a href='http://www.ricambiemmeti.it'>ricambiemmeti.in</a></p>
-                            <p><a href='http://www.ricambihaier.it'>ricambihaier.in</a></p>
-                            <p><a href='http://www.assistenzahaier.it'>assistenzahaier.in</a></p>
-
-                            
                         </li>
+                        <li><p><a href='http://www.confortairlions.it'>Confortairlions.it</a></p></li>
+                        <li><p><a href='http://www.assistenzaemmeti.it'>Assistenzaemmeti.in</a></p></li>
+                        <li><p><a href='http://www.emmetiassistenza.it'>Emmetiassistenza.in</a></p></li>
+                        <li><p><a href='http://www.haierassistenza.it'>Haierassistenza.in</a></p></li>
+                        <li><p><a href='http://www.ricambiemmeti.it'>Ricambiemmeti.in</a></p></li>
+                        <li><p><a href='http://www.ricambihaier.it'>Ricambihaier.in</a></p></li>
+                        <li><p><a href='http://www.assistenzahaier.it'>Assistenzahaier.in</a></p></li>
                     </ul>
                 </li>
             </ul>
