@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7fe182508136e167d556505cc89e02e",
+    "revision": "6f171cd18f67241fc8b4734b45fa9e96",
     "url": "/my-cv-react/index.html"
   },
   {
-    "revision": "7e1f21772a83f61d272e",
+    "revision": "572596f8cd6634951051",
     "url": "/my-cv-react/static/css/2.2600024b.chunk.css"
   },
   {
-    "revision": "ba85f996fa246f3b7cc5",
-    "url": "/my-cv-react/static/css/main.53b7a15e.chunk.css"
+    "revision": "37c7aac58bbccd1a55ed",
+    "url": "/my-cv-react/static/css/main.188a4a43.chunk.css"
   },
   {
-    "revision": "7e1f21772a83f61d272e",
-    "url": "/my-cv-react/static/js/2.9e2a40ce.chunk.js"
+    "revision": "572596f8cd6634951051",
+    "url": "/my-cv-react/static/js/2.9c52d6fa.chunk.js"
   },
   {
-    "revision": "ba85f996fa246f3b7cc5",
-    "url": "/my-cv-react/static/js/main.47c5b57e.chunk.js"
+    "revision": "37c7aac58bbccd1a55ed",
+    "url": "/my-cv-react/static/js/main.d34a5fc1.chunk.js"
   },
   {
     "revision": "26caa410a061c3c53846",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc513dedb172919ec8f1666a231973a8",
     "url": "/my-cv-react/static/media/dgf_logo.bc513ded.png"
+  },
+  {
+    "revision": "43b15171f386000209a000f3d0abd321",
+    "url": "/my-cv-react/static/media/monkey.43b15171.gif"
   },
   {
     "revision": "b205fd78d2721888f18c8e3b6da7ac3f",

@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-cv-react/static/css/main.53b7a15e.chunk.css",
-    "main.js": "/my-cv-react/static/js/main.47c5b57e.chunk.js",
-    "main.js.map": "/my-cv-react/static/js/main.47c5b57e.chunk.js.map",
+    "main.css": "/my-cv-react/static/css/main.188a4a43.chunk.css",
+    "main.js": "/my-cv-react/static/js/main.d34a5fc1.chunk.js",
+    "main.js.map": "/my-cv-react/static/js/main.d34a5fc1.chunk.js.map",
     "runtime~main.js": "/my-cv-react/static/js/runtime~main.00205f95.js",
     "runtime~main.js.map": "/my-cv-react/static/js/runtime~main.00205f95.js.map",
     "static/css/2.2600024b.chunk.css": "/my-cv-react/static/css/2.2600024b.chunk.css",
-    "static/js/2.9e2a40ce.chunk.js": "/my-cv-react/static/js/2.9e2a40ce.chunk.js",
-    "static/js/2.9e2a40ce.chunk.js.map": "/my-cv-react/static/js/2.9e2a40ce.chunk.js.map",
+    "static/js/2.9c52d6fa.chunk.js": "/my-cv-react/static/js/2.9c52d6fa.chunk.js",
+    "static/js/2.9c52d6fa.chunk.js.map": "/my-cv-react/static/js/2.9c52d6fa.chunk.js.map",
     "index.html": "/my-cv-react/index.html",
-    "precache-manifest.d91ff591ab80dab9ce6664d84fcdd6a7.js": "/my-cv-react/precache-manifest.d91ff591ab80dab9ce6664d84fcdd6a7.js",
+    "precache-manifest.750fa4b84fcf2e15fac430f53983bca3.js": "/my-cv-react/precache-manifest.750fa4b84fcf2e15fac430f53983bca3.js",
     "service-worker.js": "/my-cv-react/service-worker.js",
     "static/css/2.2600024b.chunk.css.map": "/my-cv-react/static/css/2.2600024b.chunk.css.map",
-    "static/css/main.53b7a15e.chunk.css.map": "/my-cv-react/static/css/main.53b7a15e.chunk.css.map",
+    "static/css/main.188a4a43.chunk.css.map": "/my-cv-react/static/css/main.188a4a43.chunk.css.map",
     "static/media/mdb.css": "/my-cv-react/static/media/arrow_right.8ef6a08c.svg",
     "static/media/dgf_logo.png": "/my-cv-react/static/media/dgf_logo.bc513ded.png",
+    "static/media/monkey.gif": "/my-cv-react/static/media/monkey.43b15171.gif",
     "static/media/my-logo-full.jpg": "/my-cv-react/static/media/my-logo-full.b205fd78.jpg",
     "static/media/my-logo.png": "/my-cv-react/static/media/my-logo.404a8082.png"
   }
