@@ -1,9 +1,12 @@
-.OtherSkills{
+.RecentWork{
     padding: 100px 0 100px;
-    text-align: center
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
-.OtherSkills > h2{
+.RecentWork > h2{
     margin: -50px auto 50px;
 }
 

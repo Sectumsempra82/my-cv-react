@@ -23,7 +23,7 @@ class Skills extends Component {
                 <Card className={classes.MainCard}>
                 <Card.Header><h2>Skills</h2></Card.Header>
                     <CardGroup>
-                        <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                        <Card bg="dark" text="white" >
                             <Card.Header>Back-end</Card.Header>
                             <Card.Body>
                                 <Card.Title>Web and standalone</Card.Title>
@@ -36,11 +36,12 @@ class Skills extends Component {
                                     <ListGroup.Item>Smallatlk (Cincom)</ListGroup.Item>
                                     <ListGroup.Item>MySql/MariaDb</ListGroup.Item>
                                     <ListGroup.Item>OracleDB 11g, 12g, 18g</ListGroup.Item>
+                                    <ListGroup.Item>GIT / GRUNT / JENKINS</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
                         <br />
-                        <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                        <Card bg="dark" text="white" >
                             <Card.Header>Front-end</Card.Header>
                             <Card.Body>
                                 <Card.Title>UI, UX and Animations</Card.Title>
@@ -60,7 +61,7 @@ class Skills extends Component {
                             </Card.Body>
                         </Card>
                         <br />
-                        <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                        <Card bg="dark" text="white" >
                             <Card.Header>Server side</Card.Header>
                             <Card.Body>
                                 <Card.Title>OS, Networking and Tools</Card.Title>

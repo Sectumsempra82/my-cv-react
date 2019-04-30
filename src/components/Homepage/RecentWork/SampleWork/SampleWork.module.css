@@ -1,0 +1,22 @@
+
+.SampleWork {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.SampleWork img{
+    margin: 0 auto;
+    
+}
+.SampleText p{
+    color: black !important;
+    font-weight: bold;
+}
+
+@media(max-width: 575px) {
+    .SampleWork {
+        margin: 0 auto;
+    }
+}
+
+
+
