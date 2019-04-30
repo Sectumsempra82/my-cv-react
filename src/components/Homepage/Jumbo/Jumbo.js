@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Jumbotron, Container} from 'react-bootstrap';
+import {Jumbotron} from 'react-bootstrap';
 
 import classes from './Jumbo.module.css';
 import bigLogo from '../../../assets/images/my-logo-full.jpg';

@@ -9,26 +9,27 @@
     margin-bottom: 40px;
 }
 
-.Skills>div {
+.MainCard {
     background-color: white;
     margin-top: -170px;
-    border-radius: 15px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    border-radius: 18px;
+    padding: 6px;
     z-index: 90;
+    width: 60%;
+    margin: -170px auto 0 auto;
 }
 
-@media(min-width: 575px) {
+/* @media(min-width: 575px) {
     .Skills>div>div>div:not(:first-child) {
         margin-left: 20px;
     }
-}
+} */
 
 @media(max-width: 575px) {
     .Skills>div>div>div {
         margin: 0 auto;
     }
-    .Skills>div {
-        background-color: rgb(28, 16, 29);
+    .MainCard {
+        width: auto;
     }
 }

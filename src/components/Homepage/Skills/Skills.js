@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Container, Card, CardGroup, ListGroup } from 'react-bootstrap';
+import {  Card, CardGroup, ListGroup } from 'react-bootstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import classes from './Skills.module.css';
 
 class Skills extends Component {
@@ -20,8 +20,8 @@ class Skills extends Component {
     render() {
         return (
             <section className={classes.Skills}>
-                <Container >
-                    <h2>Skills</h2>
+                <Card className={classes.MainCard}>
+                <Card.Header><h2>Skills</h2></Card.Header>
                     <CardGroup>
                         <Card bg="dark" text="white" style={{ width: '18rem' }}>
                             <Card.Header>Back-end</Card.Header>
@@ -63,7 +63,7 @@ class Skills extends Component {
                         <Card bg="dark" text="white" style={{ width: '18rem' }}>
                             <Card.Header>Server side</Card.Header>
                             <Card.Body>
-                                <Card.Title>Primary Card Title</Card.Title>
+                                <Card.Title>OS, Networking and Tools</Card.Title>
                                 <ListGroup style={{ color: 'black' }}>
                                     <ListGroup.Item>Windows 10</ListGroup.Item>
                                     <ListGroup.Item>Windows Server 12 / 16</ListGroup.Item>
@@ -81,7 +81,7 @@ class Skills extends Component {
                         </Card>
                         <br />
                     </CardGroup>
-                </Container>
+                </Card>
             </section>
         )
     }
