@@ -14,15 +14,15 @@ const DgfSample = (props) => {
                 <h5>Mission:</h5>
                 <ul>
                     <li>
-                        <p>Logo Design</p>
+                        <p><b>Logo Design</b></p>
                         <img src={dgflogo} alt='Dgf Professional Logo' />
                     </li>
                     <li>
-                        Cover Design
+                        <p><b>Cover Design</b></p>
                         <img src={dgfcover} alt='Dgf Professional Cover' />
                     </li>
-                    <li>
-                        Website prototype
+                    <li style={{marginTop: '25px'}}>
+                        <p><b>Website prototype</b> --> sadly never finished</p>
                     </li>
                 </ul>
             </div>

@@ -1,7 +1,12 @@
-
 import React from 'react';
 import classes from './ConfortAirSample.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import banner from '../../../../../../assets/images/ConfortAir/banner.jpg';
+import form from '../../../../../../assets/images/ConfortAir/confort_form.png';
+import clima from '../../../../../../assets/images/ConfortAir/clima.png';
+import appenergia from '../../../../../../assets/images/ConfortAir/appenergia.png';
+
+
 
 const ConfortAirSample = (props) => {
     return (
@@ -13,19 +18,54 @@ const ConfortAirSample = (props) => {
             <h5>Mission:</h5>
             <ul>
                 <li>
-                    <p>Back-end redesign: <a href='https://www.confortair.it'>  ConfortAir.it </a></p>
+                    <p><b>Back-end redesign</b>: <a href='https://www.confortair.it'>  ConfortAir.it </a></p>
                     <ul>
                         <li>
-                            New Php Back-end
+                            <p>New Php Back-end</p>
                         </li>
                         <li>
-                            Form re-implementation in : React.js / Angular.js / Php
+                            <p>Form re-implementation in : React.js / Angular.js / Php</p>
+                            <img src={form} alt="Form ConfortAir" />
                         </li>
                         <li>
-                            New mailing system
+                            <p>New mailing system</p>
                         </li>
                         <li>
-                            Mobile friendly adaptation
+                            <p>Mobile friendly adaptation</p>
+                            <img src={banner} alt="Banner ConfortAir Responsive" />
+                        </li>
+                        <li>
+                            <p>SEO</p>
+                        </li>
+                        <p><a href='https://www.confortair.it'>  Check the website </a></p>
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Complete website redesign</b>:<a href='https://www.climagratis.it'> Climagratis.it </a> </p>
+                    <ul>
+                        <li>
+                            <p><a href='https://www.climagratis.it'> Front-end redesign </a> </p>
+                            <img src={clima} alt="Climagratis front-end" />
+                        </li>
+                        <li>
+                            <p>Custom Php Back-end with user management</p>
+                        </li>
+                        <li>
+                            <p>Responsive design</p>
+                        </li>
+
+                    </ul>
+                </li>
+                <li>
+                    <p><b>Realization of</b>:<a href='http://www.appenergia.com'> AppEnergia.com </a> </p>
+                    
+                    <ul>
+                        <li>
+                        <p><a href='http://www.appenergia.com'> Front-end design </a> </p>
+                            <img src={appenergia} alt="Appenergia front-end" />
+                        </li>
+                        <li>
+                            Multi-domain / Multilanguage website
                         </li>
                         <li>
                             SEO
@@ -33,23 +73,22 @@ const ConfortAirSample = (props) => {
                     </ul>
                 </li>
                 <li>
-                    <p>Complete website redesign:<a href='https://www.climagratis.it'> Climagratis.it </a> </p>
+                    <p><b>Maintenance of many existing portals among which:</b></p>
                     <ul>
                         <li>
-                        <a href='https://www.climagratis.it'> Front-end redesign </a> 
+                            <p><a href='http://www.confortservizi.it'>Confortservizi.it</a></p>
+                            <p><a href='http://www.confortairlions.it'>Confortairlions.it</a></p>
+                            <p><a href='http://www.assistenzaemmeti.it'>assistenzaemmeti.in</a></p>
+                            <p><a href='http://www.emmetiassistenza.it'>emmetiassistenza.in</a></p>
+                            <p><a href='http://www.haierassistenza.it'>haierassistenza.in</a></p>
+                            <p><a href='http://www.ricambiemmeti.it'>ricambiemmeti.in</a></p>
+                            <p><a href='http://www.ricambihaier.it'>ricambihaier.in</a></p>
+                            <p><a href='http://www.assistenzahaier.it'>assistenzahaier.in</a></p>
+
+                            
                         </li>
-                        <li>
-                            Custom Php Back-end with user management
-                        </li>
-                        <li>
-                            Responsive design
-                        </li>
-                        
                     </ul>
                 </li>
-                <li>
-                    Website prototype
-                    </li>
             </ul>
         </div>
 

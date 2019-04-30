@@ -3,9 +3,17 @@
 }
 
 .DgfSample>ul>li>img{
-    max-width: 60vw
+    max-width: 1000px
 }
 .DgfSample>ul{
-    font-size: x-large;
     margin-top:50px;
+}
+.DgfSample>ul>li{
+    display: block
+}
+
+@media (max-width: 600px) {
+    .DgfSample>ul>li>img{
+        max-width: 90vw
+    }
 }
