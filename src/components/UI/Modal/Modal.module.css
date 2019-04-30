@@ -3,21 +3,26 @@
     z-index: 500;
     background-color: white;
     max-width: 80%;
-    width: 800px;
+    /* width: 800px; */
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
     padding: 16px;
-    left: calc(50% - 400px);
-    left: --webkit-calc(50% - 400px);
-    top: 15%;
+
     box-sizing: border-box;
     transition: all 0.3s ease-out;
+    /* max-height: calc(100% - 100px); */
+    
+    top: 50%;
+    left: 50%;
+    
 }
+
 
 @media (max-width: 600px) {
     .Modal {
-        max-width: 70vw;
-        left: 15vw;
+        max-width: 90vw;
+        margin: 0 auto;
+        overflow: scroll;
     }
     .Modal img{
         max-width: 70%;

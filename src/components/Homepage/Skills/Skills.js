@@ -36,7 +36,7 @@ class Skills extends Component {
                                     <ListGroup.Item>Smallatlk (Cincom)</ListGroup.Item>
                                     <ListGroup.Item>MySql/MariaDb</ListGroup.Item>
                                     <ListGroup.Item>OracleDB 11g, 12g, 18g</ListGroup.Item>
-                                    <ListGroup.Item>GIT / GRUNT / JENKINS</ListGroup.Item>
+                                    <ListGroup.Item>GIT / GRUNT / Jenkins</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>

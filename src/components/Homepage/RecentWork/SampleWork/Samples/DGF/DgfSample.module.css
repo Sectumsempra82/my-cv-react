@@ -1,0 +1,11 @@
+.DgfSample{
+    display: block;
+}
+
+.DgfSample>ul>li>img{
+    max-width: 60vw
+}
+.DgfSample>ul{
+    font-size: x-large;
+    margin-top:50px;
+}
