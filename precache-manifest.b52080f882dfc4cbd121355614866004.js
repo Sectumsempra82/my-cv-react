@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6474de451708b6e1db1c6de88213747",
+    "revision": "3afbc7860d7b78d732e7290061056ae0",
     "url": "/my-cv-react/index.html"
   },
   {
-    "revision": "7ea17326a1506cf77bcc",
+    "revision": "2f5ddfbb5d6ee40d428e",
     "url": "/my-cv-react/static/css/2.2600024b.chunk.css"
   },
   {
-    "revision": "8805a6689c3b1a34fd83",
-    "url": "/my-cv-react/static/css/main.cd0fcb44.chunk.css"
+    "revision": "8df3d4505cd077be1876",
+    "url": "/my-cv-react/static/css/main.52f35cf4.chunk.css"
   },
   {
-    "revision": "7ea17326a1506cf77bcc",
-    "url": "/my-cv-react/static/js/2.73035582.chunk.js"
+    "revision": "2f5ddfbb5d6ee40d428e",
+    "url": "/my-cv-react/static/js/2.adb9ca4f.chunk.js"
   },
   {
-    "revision": "8805a6689c3b1a34fd83",
-    "url": "/my-cv-react/static/js/main.ff31abd9.chunk.js"
+    "revision": "8df3d4505cd077be1876",
+    "url": "/my-cv-react/static/js/main.f4a5f7cc.chunk.js"
   },
   {
     "revision": "26caa410a061c3c53846",
@@ -104,12 +104,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-cv-react/static/media/Roboto-Thin.dfe56a87.eot"
   },
   {
+    "revision": "cfef78b4e3423df78215f7fa763f81b0",
+    "url": "/my-cv-react/static/media/appenergia.cfef78b4.png"
+  },
+  {
     "revision": "11911410dca2de148f30954eb2fd5eab",
     "url": "/my-cv-react/static/media/arrow_left.11911410.svg"
   },
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/my-cv-react/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "ef1d940711f7181175d16aee1f723abc",
+    "url": "/my-cv-react/static/media/banner.ef1d9407.jpg"
+  },
+  {
+    "revision": "5ebc3db9cf4fcc09eef00d7966c9ea8b",
+    "url": "/my-cv-react/static/media/clima.5ebc3db9.png"
+  },
+  {
+    "revision": "7237f83bcc69065df2a70d7db67b5e7c",
+    "url": "/my-cv-react/static/media/confort_form.7237f83b.png"
   },
   {
     "revision": "d090e11acfc62af4639790358bcdaf18",
