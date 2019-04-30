@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/my-cv-react/static/css/main.d049645f.chunk.css",
-    "main.js": "/my-cv-react/static/js/main.6c0a3325.chunk.js",
-    "main.js.map": "/my-cv-react/static/js/main.6c0a3325.chunk.js.map",
+    "main.css": "/my-cv-react/static/css/main.53b7a15e.chunk.css",
+    "main.js": "/my-cv-react/static/js/main.47c5b57e.chunk.js",
+    "main.js.map": "/my-cv-react/static/js/main.47c5b57e.chunk.js.map",
     "runtime~main.js": "/my-cv-react/static/js/runtime~main.00205f95.js",
     "runtime~main.js.map": "/my-cv-react/static/js/runtime~main.00205f95.js.map",
-    "static/js/2.040caed6.chunk.js": "/my-cv-react/static/js/2.040caed6.chunk.js",
-    "static/js/2.040caed6.chunk.js.map": "/my-cv-react/static/js/2.040caed6.chunk.js.map",
+    "static/css/2.2600024b.chunk.css": "/my-cv-react/static/css/2.2600024b.chunk.css",
+    "static/js/2.9e2a40ce.chunk.js": "/my-cv-react/static/js/2.9e2a40ce.chunk.js",
+    "static/js/2.9e2a40ce.chunk.js.map": "/my-cv-react/static/js/2.9e2a40ce.chunk.js.map",
     "index.html": "/my-cv-react/index.html",
-    "precache-manifest.0bac1c5b554b6fad6d049a77b62b1298.js": "/my-cv-react/precache-manifest.0bac1c5b554b6fad6d049a77b62b1298.js",
+    "precache-manifest.d91ff591ab80dab9ce6664d84fcdd6a7.js": "/my-cv-react/precache-manifest.d91ff591ab80dab9ce6664d84fcdd6a7.js",
     "service-worker.js": "/my-cv-react/service-worker.js",
-    "static/css/main.d049645f.chunk.css.map": "/my-cv-react/static/css/main.d049645f.chunk.css.map",
+    "static/css/2.2600024b.chunk.css.map": "/my-cv-react/static/css/2.2600024b.chunk.css.map",
+    "static/css/main.53b7a15e.chunk.css.map": "/my-cv-react/static/css/main.53b7a15e.chunk.css.map",
+    "static/media/mdb.css": "/my-cv-react/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/dgf_logo.png": "/my-cv-react/static/media/dgf_logo.bc513ded.png",
     "static/media/my-logo-full.jpg": "/my-cv-react/static/media/my-logo-full.b205fd78.jpg",
     "static/media/my-logo.png": "/my-cv-react/static/media/my-logo.404a8082.png"
   }
