@@ -12,9 +12,9 @@ const MgxsupSample = (props) => {
         <div className={classes.MgxdevSample}>
             <div className={classes.BrandName}><h3>Mediagenix NG</h3></div>
             <p>   Contacts: <a href='https://www.mediagenix.tv/en/'>  Website </a> - <a href="https://www.facebook.com/MEDIAGENIX/"><FontAwesomeIcon icon={['fab', 'facebook-f']} /> </a> - <a href="https://www.linkedin.com/company/mediagenix-ng/"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /> </a></p>
-            <h5><b>Back-end / GUI Developer <br /> September 2017 / September 2018</b></h5>
+            
             <h6>Mission:</h6>
-            <p><b>Support Engineer</b></p>
+            <h5><b>Support Engineer</b></h5>
             <img src={win_sup} alt="Whats'On software" />
             <ul>
                 <li>

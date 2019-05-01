@@ -12,6 +12,7 @@ import MgxdevSample from './SampleWork/Samples/MGXDEV/MgxdevSample';
 import mgx_sup from '../../../assets/images/MGX/mgx_sup.png';
 import MgxsupSample from './SampleWork/Samples/MGXSUP/MgxsupSample';
 import who from '../../../assets/images/who.png';
+import Who from './SampleWork/Samples/WHO/WhoSample';
 
 
 
@@ -23,7 +24,7 @@ class RecentWork extends Component {
         'CONFORTAIR': <ConfortAir />,
         'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
         'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
-        'WHO': ''
+        'WHO': <Who/>
     }
 
     render() {
