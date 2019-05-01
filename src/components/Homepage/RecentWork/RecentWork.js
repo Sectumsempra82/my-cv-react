@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBRow, MDBContainer, MDBCol } from "mdbreact";
+import { MDBRow, MDBContainer } from "mdbreact";
 
 import SampleWork from './SampleWork/SampleWork';
 import classes from './RecentWork.module.css';
@@ -8,7 +8,9 @@ import DgfSample from './SampleWork/Samples/DGF/DgfSample';
 import confort from '../../../assets/images/ConfortAir/confort_logo.png';
 import ConfortAir from './SampleWork/Samples/ConfortAir/ConfortAirSample';
 import mgx_dev from '../../../assets/images/MGX/mgx_dev.png';
+import MgxdevSample from './SampleWork/Samples/MGXDEV/MgxdevSample';
 import mgx_sup from '../../../assets/images/MGX/mgx_sup.png';
+import MgxsupSample from './SampleWork/Samples/MGXSUP/MgxsupSample';
 import who from '../../../assets/images/who.png';
 
 
@@ -19,8 +21,8 @@ class RecentWork extends Component {
     modals = {
         'DGF PROFESSIONAL': <DgfSample />,
         'CONFORTAIR': <ConfortAir />,
-        'MEDIAGENIX - DEVELOPER': '',
-        'MEDIAGENIX - IT SUPPORT': '',
+        'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
+        'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
         'WHO': ''
     }
 

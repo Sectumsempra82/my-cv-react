@@ -12,7 +12,7 @@ const ConfortAirSample = (props) => {
     return (
 
         <div className={classes.ConfortAirSample}>
-            <h2>ConfortAirSample S.R.L.</h2>
+            <h2>ConfortAir S.R.L.</h2>
             <p>   Contacts: <a href='https://www.confortair.it'>  Website </a> - <a href="https://www.facebook.com/confortair/"><FontAwesomeIcon icon={['fab', 'facebook-f']} /> </a> </p>
             <h3>Web Developer -- September 2014 / July 2017</h3>
             <h5>Mission:</h5>
@@ -37,7 +37,7 @@ const ConfortAirSample = (props) => {
                         <li>
                             <p>SEO</p>
                         </li>
-                        <p><a href='https://www.confortair.it'>  Check the website </a></p>
+                        <li><p><a href='https://www.confortair.it'>  Check the website </a></p></li>
                     </ul>
                 </li>
                 <li>

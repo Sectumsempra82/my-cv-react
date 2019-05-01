@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Figure } from 'react-bootstrap';
-import pic from "../../../../assets/images/my-logo.png";
+// import { Figure } from 'react-bootstrap';
+// import pic from "../../../../assets/images/my-logo.png";
 import classes from './SampleWork.module.css';
 import { MDBView, MDBMask } from "mdbreact";
 import 'mdbreact/dist/css/mdb.css';

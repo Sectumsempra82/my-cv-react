@@ -1,0 +1,14 @@
+img {
+    margin-bottom: 25px;
+}
+
+@media(max-width: 575px) {
+    li {
+        text-indent: -4px;
+        /* padding-left: -10px;
+        width: 50vw; */
+    }
+    .BrandName {
+        width: 70vw;
+    }
+}
