@@ -13,7 +13,8 @@ import mgx_sup from '../../../assets/images/MGX/mgx_sup.png';
 import MgxsupSample from './SampleWork/Samples/MGXSUP/MgxsupSample';
 import who from '../../../assets/images/who.png';
 import Who from './SampleWork/Samples/WHO/WhoSample';
-
+import thisWebPic from '../../../assets/images/thisWebPic.png';
+import ThisWebsite from './SampleWork/Samples/ThisWebsite/ThisWebsite';
 
 
 
@@ -24,7 +25,8 @@ class RecentWork extends Component {
         'CONFORTAIR': <ConfortAir />,
         'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
         'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
-        'WHO': <Who/>
+        'WHO': <Who />,
+        'THIS WEBSITE': <ThisWebsite />
     }
 
     render() {
@@ -35,18 +37,17 @@ class RecentWork extends Component {
 
                     <MDBContainer className="mt-5">
                         <MDBRow>
-                            
-                                <SampleWork
-                                picture={mgx_dev}
-                                text={'MEDIAGENIX - DEVELOPER'}
+                            <SampleWork
+                                picture={thisWebPic}
+                                text={'THIS WEBSITE'}
                                 click={() => {
                                     this.props.setSampleContent(
-                                        this.modals['MEDIAGENIX - DEVELOPER']
+                                        this.modals['THIS WEBSITE']
                                     );
                                     this.props.showSample();
                                 }}>
-                                </SampleWork>
-                                <SampleWork
+                            </SampleWork>
+                            <SampleWork
                                 picture={mgx_sup}
                                 text={'MEDIAGENIX - IT SUPPORT'}
                                 click={() => {
@@ -55,8 +56,19 @@ class RecentWork extends Component {
                                     );
                                     this.props.showSample();
                                 }}>
-                                </SampleWork>
-                                <SampleWork
+                            </SampleWork>
+                            <SampleWork
+                                picture={mgx_dev}
+                                text={'MEDIAGENIX - DEVELOPER'}
+                                click={() => {
+                                    this.props.setSampleContent(
+                                        this.modals['MEDIAGENIX - DEVELOPER']
+                                    );
+                                    this.props.showSample();
+                                }}>
+                            </SampleWork>
+
+                            <SampleWork
                                 picture={confort}
                                 text={'CONFORTAIR'}
                                 click={() => {
@@ -65,29 +77,29 @@ class RecentWork extends Component {
                                     );
                                     this.props.showSample();
                                 }}>
-                                </SampleWork>
-                                <SampleWork
-                                    picture={dgf}
-                                    text={'DGF PROFESSIONAL'}
-                                    click={() => {
-                                        this.props.setSampleContent(
-                                            this.modals['DGF PROFESSIONAL']
-                                        );
-                                        this.props.showSample();
-                                    }}>
-                                </SampleWork>
-                                <SampleWork
-                                    picture={who}
-                                    text={'WHO'}
-                                    click={() => {
-                                        this.props.setSampleContent(
-                                            this.modals['WHO']
-                                        );
-                                        this.props.showSample();
-                                    }}>
-                                </SampleWork>
+                            </SampleWork>
+                            <SampleWork
+                                picture={dgf}
+                                text={'DGF PROFESSIONAL'}
+                                click={() => {
+                                    this.props.setSampleContent(
+                                        this.modals['DGF PROFESSIONAL']
+                                    );
+                                    this.props.showSample();
+                                }}>
+                            </SampleWork>
+                            <SampleWork
+                                picture={who}
+                                text={'WHO'}
+                                click={() => {
+                                    this.props.setSampleContent(
+                                        this.modals['WHO']
+                                    );
+                                    this.props.showSample();
+                                }}>
+                            </SampleWork>
 
-                           
+
                         </MDBRow>
                     </MDBContainer>
 
