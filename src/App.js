@@ -4,7 +4,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from "@fortawesome/free-brands-svg-icons"
 
 import Layout from './components/UI/Layout/Layout';
-import Home from './components/Homepage/Home/Home';
+import Home from './components/Homepage/Home';
 import './App.css';
 
 library.add(fab, fas)

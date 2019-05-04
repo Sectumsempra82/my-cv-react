@@ -10,9 +10,7 @@ class SampleWork extends Component {
 
     render() {
         return (
-
             <MDBView className={classes.SampleWork} hover zoom>
-
                 <img
                     className={classes.SamplePic}
                     width={171}
@@ -26,8 +24,6 @@ class SampleWork extends Component {
             </MDBView>
         )
     }
-
-
 
 }
 

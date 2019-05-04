@@ -11,7 +11,7 @@
     box-sizing: border-box;
     transition: all 0.3s ease-out;
     max-height: calc(100% - 100px);
-    overflow: scroll;
+    
     top: 50%;
     left: 50%;
     font-size: x-large;

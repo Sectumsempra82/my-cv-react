@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Jumbo from '../Jumbo/Jumbo';
-import Preface from '../Preface/Preface';
-import Skills from '../Skills/Skills';
-import RecentWork from '../RecentWork/RecentWork';
-import Modal from '../../UI/Modal/Modal';
-import monkey from "../../../assets/images/monkey.gif";
+import Jumbo from './Jumbo/Jumbo';
+import Preface from './Preface/Preface';
+import Skills from './Skills/Skills';
+import RecentWork from './RecentWork/RecentWork';
+import Modal from '../UI/Modal/Modal';
+import monkey from "../../assets/images/monkey.gif";
 
 class Home extends Component {
 
@@ -19,7 +19,8 @@ class Home extends Component {
             );
         this.state = {
             modal: true,
-            sampleContent: warningContent
+            sampleContent: warningContent,
+            overflow: false
         };
     }
 
@@ -32,7 +33,8 @@ class Home extends Component {
     closeSample = () => {
         this.setState({
             modal: false,
-            sampleContent: ''
+            sampleContent: '',
+            overflow: true
         })
     }
 
@@ -45,7 +47,7 @@ class Home extends Component {
     render() {
         return (
             <>
-                <Modal show={this.state.modal} modalClosed={this.closeSample}>
+                <Modal show={this.state.modal} modalClosed={this.closeSample} overflowActive={this.state.overflow}>
                     {this.state.sampleContent}
                 </Modal>
                 <Jumbo></Jumbo>

@@ -1,21 +1,9 @@
 import React, { Component } from 'react';
 import {  Card, CardGroup, ListGroup } from 'react-bootstrap';
-
-//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import classes from './Skills.module.css';
 
 class Skills extends Component {
-    // renderStars = (n) => {
-    //     let stars = [...Array(n)].map((v, i) => <FontAwesomeIcon icon={["fas", "star"]}  key={'s' + i}/>);
-    //     if (n < 5) {
-    //         let m = 5 - n;
-    //         let noStars = [...Array(m)].map((v, i) => <FontAwesomeIcon icon={["far", "star"]} key={'ns' + i}/>);
-    //         const allStars = stars.concat(noStars);
-    //         return allStars;
-    //     } else {
-    //         return stars;
-    //     }
-    // }
+
 
     render() {
         return (
