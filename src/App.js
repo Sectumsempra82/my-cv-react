@@ -1,37 +1,24 @@
 import React, { Component } from 'react';
-import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
-//import asyncComponent from './hoc/asyncComponent/asyncComponent';
-
-import Layout from './hoc/Layout/Layout';
-import Home from './containers/Home/Home';
-import './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from "@fortawesome/free-brands-svg-icons"
 
+import Layout from './components/UI/Layout/Layout';
+import Home from './components/Homepage/Home/Home';
+import './App.css';
+
 library.add(fab, fas)
-
-
 
 class App extends Component {
 
   render() {
 
-    const routes = (
-      <Switch>
-        {/* <Route path="/logout" component={Logout} />
-        <Route path="/auth" component={asyncAuth} /> */}
-        <Route path="/" exact component={Home} />
-        <Redirect to="/" />
-      </Switch>
-    );
-
     return (
       <Layout>
-        {routes}
+        <Home />
       </Layout>
     );
   }
 }
 
-export default withRouter(App);
+export default App;

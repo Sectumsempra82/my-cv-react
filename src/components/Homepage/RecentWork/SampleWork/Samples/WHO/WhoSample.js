@@ -2,10 +2,6 @@ import React from 'react';
 import classes from './WhoSample.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
-
-
-
 const WhoSample = (props) => {
     return (
 
