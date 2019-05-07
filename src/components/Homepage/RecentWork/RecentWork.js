@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { MDBRow, MDBContainer } from "mdbreact";
-
+import { MDBRow, MDBContainer, MDBView, MDBMask } from "mdbreact";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import SampleWork from './SampleWork/SampleWork';
 import classes from './RecentWork.module.css';
 import dgf from '../../../assets/images/DGF/dgf_logo.png';
@@ -15,94 +15,66 @@ import who from '../../../assets/images/who.png';
 import Who from './SampleWork/Samples/WHO/WhoSample';
 import thisWebPic from '../../../assets/images/thisWebPic.png';
 import ThisWebsite from './SampleWork/Samples/ThisWebsite/ThisWebsite';
-
-
+import myCV from '../../../assets/CVBEJAN.pdf';
+import cvDownload from '../../../assets/images/cvDownload.png';
 
 class RecentWork extends Component {
 
+    picList = [thisWebPic, mgx_sup, mgx_dev, confort, dgf, who]
     modals = {
-        'DGF PROFESSIONAL': <DgfSample />,
-        'CONFORTAIR': <ConfortAir />,
-        'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
+        'THIS WEBSITE': <ThisWebsite />,
         'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
-        'WHO': <Who />,
-        'THIS WEBSITE': <ThisWebsite />
+        'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
+        'CONFORTAIR': <ConfortAir />,
+        'DGF PROFESSIONAL': <DgfSample />,
+        'WHO': <Who />
     }
 
+
     render() {
+
+        let sampleList = Object.keys(this.modals).map((el, i) => {
+            return ([this.picList[i], el])
+        })
+
+            .map((el) => {
+                return (
+                    <SampleWork
+                        picture={el[0]}
+                        text={el[1]}
+                        click={() => {
+                            this.props.setSampleContent(
+                                this.modals[el[1]]
+                            );
+                            this.props.showSample();
+                        }}>
+                    </SampleWork>
+                )
+            })
+
+
         return (
             <section className={classes.RecentWork}>
                 <div><h1>Recent Work</h1></div>
                 <div className={classes.PicContainer}>
-
                     <MDBContainer className="mt-5">
                         <MDBRow>
-                            <SampleWork
-                                picture={thisWebPic}
-                                text={'THIS WEBSITE'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['THIS WEBSITE']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-                            <SampleWork
-                                picture={mgx_sup}
-                                text={'MEDIAGENIX - IT SUPPORT'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['MEDIAGENIX - IT SUPPORT']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-                            <SampleWork
-                                picture={mgx_dev}
-                                text={'MEDIAGENIX - DEVELOPER'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['MEDIAGENIX - DEVELOPER']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-
-                            <SampleWork
-                                picture={confort}
-                                text={'CONFORTAIR'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['CONFORTAIR']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-                            <SampleWork
-                                picture={dgf}
-                                text={'DGF PROFESSIONAL'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['DGF PROFESSIONAL']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-                            <SampleWork
-                                picture={who}
-                                text={'WHO'}
-                                click={() => {
-                                    this.props.setSampleContent(
-                                        this.modals['WHO']
-                                    );
-                                    this.props.showSample();
-                                }}>
-                            </SampleWork>
-
-
+                            {sampleList}
+                            <MDBView className={classes.CV} hover zoom>
+                                <img
+                                    width={171}
+                                    height={180}
+                                    alt='CV Download'
+                                    src={cvDownload}
+                                />
+                                <a href={myCV}>
+                                    <MDBMask overlay="white-strong" className={["flex-center", classes.SampleText].join(' ')} onClick={this.props.click}>
+                                        <FontAwesomeIcon icon={['fas', 'download']} style={{ fontSize: 'xx-large', color: 'black' }} />
+                                    </MDBMask>
+                                </a>
+                            </MDBView>
                         </MDBRow>
                     </MDBContainer>
-
                 </div>
             </section>
         )

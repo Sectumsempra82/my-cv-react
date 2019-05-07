@@ -23,3 +23,22 @@
 .Lists {
     padding: auto;
 }
+
+.CV {
+    margin-top: 5%;
+    margin-left: 7%;
+}
+.CV img{
+    margin: 0 auto;
+    
+}
+.CV p{
+    color: black !important;
+    font-weight: bold;
+}
+
+@media(max-width: 575px) {
+    .CV {
+        margin: 15px auto;
+    }
+}

@@ -12,10 +12,9 @@ class SampleWork extends Component {
         return (
             <MDBView className={classes.SampleWork} hover zoom>
                 <img
-                    className={classes.SamplePic}
                     width={171}
                     height={180}
-                    alt="171x180"
+                    alt={this.props.text}
                     src={this.props.picture}
                 />
                 <MDBMask overlay="white-strong" className={["flex-center", classes.SampleText].join(' ')} onClick={this.props.click}>

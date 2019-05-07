@@ -4,22 +4,24 @@ import Preface from './Preface/Preface';
 import Skills from './Skills/Skills';
 import RecentWork from './RecentWork/RecentWork';
 import Modal from '../UI/Modal/Modal';
-import monkey from "../../assets/images/monkey.gif";
+import Demos from './Demos/Demos';
+
+// import monkey from "../../assets/images/monkey.gif";
 
 class Home extends Component {
 
     constructor(props) {
         super(props);
-        const warningContent = (
-            <div style={{ textAlign: 'center', backgroundColor: 'yellow'}}>
-                <img src={monkey} alt='monkey' style={{margin: '0 auto'}}/><br/>
-                <h3>This website is still in construction, proceed at your own risk</h3><br/>
-                <button onClick={this.closeSample}>OK, PROCEED ANYWAY</button>
-            </div>
-            );
+        // const warningContent = (
+        //     <div style={{ textAlign: 'center', backgroundColor: 'yellow'}}>
+        //         <img src={monkey} alt='monkey' style={{margin: '0 auto'}}/><br/>
+        //         <h3>This website is still in construction, proceed at your own risk</h3><br/>
+        //         <button onClick={this.closeSample}>OK, PROCEED ANYWAY</button>
+        //     </div>
+        //     );
         this.state = {
-            modal: true,
-            sampleContent: warningContent,
+            modal: false,
+            sampleContent: '',
             overflow: false
         };
     }
@@ -53,8 +55,9 @@ class Home extends Component {
                 <Jumbo></Jumbo>
                 <Preface></Preface>
                 <Skills></Skills>
+                
                 <RecentWork showSample={this.showSample} setSampleContent={this.setSampleContent}></RecentWork>
-
+                <Demos></Demos>
             </>
         )
     }

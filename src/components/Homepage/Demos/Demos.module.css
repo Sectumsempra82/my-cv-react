@@ -1,0 +1,9 @@
+.Demos{
+    padding: 100px 0 100px;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    padding: 5%;
+    background-color: rgb(36, 27, 36);
+    color: white;
+}

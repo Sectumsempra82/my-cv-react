@@ -8,10 +8,6 @@ import Backdrop from '../../UI/Backdrop/Backdrop';
 let cx = classNames.bind(classes);
 
 const sideDrawer = ( props ) => {
-    // let attachedClasses = [classes.SideDrawer, classes.Close];
-    // if (props.open) {
-    //     attachedClasses = [classes.SideDrawer, classes.Open];
-    // }
 
     let className = cx({
         SideDrawer: true,
@@ -27,7 +23,7 @@ const sideDrawer = ( props ) => {
                     <Logo />
                 </div>
                 <nav>
-                    <NavigationItems /* isAuthenticated={props.isAuth} */ />
+                    <NavigationItems />
                 </nav>
             </div>
         </>
