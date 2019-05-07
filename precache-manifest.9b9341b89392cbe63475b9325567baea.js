@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d00dd1dfd95d7edeb30a549435d9e808",
+    "revision": "d703e197e26b715a4e9882d0ed5a0f95",
     "url": "/my-cv-react/index.html"
   },
   {
-    "revision": "7263f986ba6623a9a468",
+    "revision": "1338382a0b531ff4dee1",
     "url": "/my-cv-react/static/css/2.2600024b.chunk.css"
   },
   {
-    "revision": "9bb579936cf81b66dd1a",
-    "url": "/my-cv-react/static/css/main.c9cb46c2.chunk.css"
+    "revision": "b8bdba65a174ca31e1d7",
+    "url": "/my-cv-react/static/css/main.1d171740.chunk.css"
   },
   {
-    "revision": "7263f986ba6623a9a468",
-    "url": "/my-cv-react/static/js/2.0daac1eb.chunk.js"
+    "revision": "1338382a0b531ff4dee1",
+    "url": "/my-cv-react/static/js/2.30ba3e0d.chunk.js"
   },
   {
-    "revision": "9bb579936cf81b66dd1a",
-    "url": "/my-cv-react/static/js/main.bd4d8b9c.chunk.js"
+    "revision": "b8bdba65a174ca31e1d7",
+    "url": "/my-cv-react/static/js/main.7ebf259e.chunk.js"
   },
   {
     "revision": "26caa410a061c3c53846",
     "url": "/my-cv-react/static/js/runtime~main.00205f95.js"
+  },
+  {
+    "revision": "2044605a8041cb29262270943fad7af2",
+    "url": "/my-cv-react/static/media/CVBEJAN.2044605a.pdf"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
@@ -136,12 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-cv-react/static/media/cover.902c684a.jpg"
   },
   {
-    "revision": "bc513dedb172919ec8f1666a231973a8",
-    "url": "/my-cv-react/static/media/dgf_logo.bc513ded.png"
+    "revision": "2fa39060b361c88486f230d6071e82d4",
+    "url": "/my-cv-react/static/media/cvDownload.2fa39060.png"
   },
   {
-    "revision": "43b15171f386000209a000f3d0abd321",
-    "url": "/my-cv-react/static/media/monkey.43b15171.gif"
+    "revision": "793f2d055e317d4001b2026862d4a509",
+    "url": "/my-cv-react/static/media/demoBaz.793f2d05.png"
+  },
+  {
+    "revision": "bc513dedb172919ec8f1666a231973a8",
+    "url": "/my-cv-react/static/media/dgf_logo.bc513ded.png"
   },
   {
     "revision": "b205fd78d2721888f18c8e3b6da7ac3f",

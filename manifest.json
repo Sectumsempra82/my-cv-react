@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "BRC-CV-REACT",
+  "name": "Bejan Radu-Cristian Online CV",
   "icons": [
     {
       "src": "favicon.ico",
