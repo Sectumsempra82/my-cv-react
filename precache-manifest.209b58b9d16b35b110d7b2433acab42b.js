@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5673952fd0216518f8601a4df4a24500",
+    "revision": "29166d707b182f69d2a195795c1e5a9c",
     "url": "/my-cv-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-cv-react/static/css/2.2600024b.chunk.css"
   },
   {
-    "revision": "b01b5fd87fe8a964ff1d",
+    "revision": "dcffc8277b5a214fc38b",
     "url": "/my-cv-react/static/css/main.8add147c.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-cv-react/static/js/2.de61c7fb.chunk.js"
   },
   {
-    "revision": "b01b5fd87fe8a964ff1d",
-    "url": "/my-cv-react/static/js/main.7f91c6a1.chunk.js"
+    "revision": "dcffc8277b5a214fc38b",
+    "url": "/my-cv-react/static/js/main.4300453b.chunk.js"
   },
   {
     "revision": "26caa410a061c3c53846",
     "url": "/my-cv-react/static/js/runtime~main.00205f95.js"
   },
   {
-    "revision": "2044605a8041cb29262270943fad7af2",
-    "url": "/my-cv-react/static/media/CVBEJAN.2044605a.pdf"
+    "revision": "12535f8fe12f884f9c127d21b829c72c",
+    "url": "/my-cv-react/static/media/CVBEJAN.12535f8f.pdf"
   },
   {
     "revision": "39b2c3031be6b4ea96e2e3e95d307814",
