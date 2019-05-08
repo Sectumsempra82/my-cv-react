@@ -19,7 +19,7 @@ class Demos extends Component {
                         </Card.Text>
                         <a href='https://sectumsempra82.github.io/wannabe-bazillionaire/'><Button variant="primary">Play now!</Button></a>
                     </Card.Body>
-                </Card>;
+                </Card>
             </section>
         )
     }
