@@ -20,9 +20,8 @@ import cvDownload from '../../../assets/images/cvDownload.png';
 
 class RecentWork extends Component {
 
-    picList = [thisWebPic, mgx_sup, mgx_dev, confort, dgf, who]
+    picList = [mgx_sup, mgx_dev, confort, dgf, who]
     modals = {
-        'THIS WEBSITE': <ThisWebsite />,
         'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
         'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
         'CONFORTAIR': <ConfortAir />,

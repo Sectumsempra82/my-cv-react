@@ -7,3 +7,9 @@
     background-color: rgb(36, 27, 36);
     color: white;
 }
+.CardHeader{
+    color: black;
+}
+.CardHolder{
+    display: flex;
+}
