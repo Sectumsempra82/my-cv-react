@@ -25,6 +25,8 @@ class Skills extends Component {
                                     <ListGroup.Item>MySql/MariaDb</ListGroup.Item>
                                     <ListGroup.Item>OracleDB 11g, 12g, 18g</ListGroup.Item>
                                     <ListGroup.Item>GIT / GRUNT / Jenkins</ListGroup.Item>
+                                    <ListGroup.Item>High level security</ListGroup.Item>
+                                    <ListGroup.Item>Technical Support</ListGroup.Item>
                                 </ListGroup>
                             </Card.Body>
                         </Card>
@@ -74,9 +76,6 @@ class Skills extends Component {
             </section>
         )
     }
-
-
-
 }
 
 export default Skills;

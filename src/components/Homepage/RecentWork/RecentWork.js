@@ -13,6 +13,8 @@ import mgx_sup from '../../../assets/images/MGX/mgx_sup.png';
 import MgxsupSample from './SampleWork/Samples/MGXSUP/MgxsupSample';
 import who from '../../../assets/images/who.png';
 import Who from './SampleWork/Samples/WHO/WhoSample';
+import os from '../../../assets/images/OS/OneSpan.jpg';
+import OnespanSample from './SampleWork/Samples/Onespan/OnespanSample';
 import thisWebPic from '../../../assets/images/thisWebPic.png';
 import ThisWebsite from './SampleWork/Samples/ThisWebsite/ThisWebsite';
 import myCV from '../../../assets/CVBEJAN.pdf';
@@ -20,8 +22,9 @@ import cvDownload from '../../../assets/images/cvDownload.png';
 
 class RecentWork extends Component {
 
-    picList = [mgx_sup, mgx_dev, confort, dgf, who]
+    picList = [os, mgx_sup, mgx_dev, confort, dgf, who]
     modals = {
+        'ONESPAN - TECHNICAL SUPPORT': <OnespanSample />,
         'MEDIAGENIX - IT SUPPORT': <MgxsupSample />,
         'MEDIAGENIX - DEVELOPER': <MgxdevSample />,
         'CONFORTAIR': <ConfortAir />,
